@@ -4,7 +4,7 @@
   "description": "This service is used to send reminders in email.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "npx nodemon src/index.js"
   },
   "author": "Himanshu Gupta",
   "license": "ISC",
