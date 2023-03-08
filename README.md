@@ -27,3 +27,7 @@
 ### To add NotificationTicket model
 
 > npx sequelize model:generate --name NotificationTicket --attributes subject:string,content:string,recepientEmail:string,status:enum,notificationTime:date
+
+### To migrate model to database
+
+> npx sequelize db:migrate
